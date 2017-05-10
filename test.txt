@@ -1,0 +1,4 @@
+GSM935451	line1_input_rep1
+GSM935527	line1_input_rep2, line1_input_rep3, line_input_rep3
+GSM935478	line3_antibody_rep1
+GSM935452	line3_antibody_rep2
