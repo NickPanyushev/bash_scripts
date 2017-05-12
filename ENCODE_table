@@ -1,58 +1,59 @@
-GM10847	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000770	GSM935451	172 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1108; controlId=wgEncodeEH000770; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=944e93f53e275a872d89510f02d78a64;
-GM10847	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000770	GSM935451	194 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1108; controlId=wgEncodeEH000770; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=ca24243889cc88dfb6a9d954aa8290d7;
-GM10847	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000734	GSM935527	126 MB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=3; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1050; controlId=wgEncodeEH000770; labVersion=Illumina 2.0, low confidence sequences excluded. Data paired with GM10847_IgG_Control; md5sum=76112d638f2c2dc3fca65df88d4e470b;
-GM10847	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000734	GSM935527	311 MB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1050; controlId=wgEncodeEH000770; labVersion=Illumina 2.0, low confidence sequences excluded. Data paired with GM10847_IgG_Control; md5sum=44c1ccef8d6ce04be3e13dd39df366dd;
-GM10847	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000734	GSM935527	347 MB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1050; controlId=wgEncodeEH000770; labVersion=Illumina 2.0, low confidence sequences excluded. Data paired with GM10847_IgG_Control; md5sum=05ba627a6715263f3385f87686382221;
-GM10847	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000734	GSM935527	547 MB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=4; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1050; controlId=wgEncodeEH000770; labVersion=Data paired with GM10847_IgG_Control; md5sum=b4d22334fb98a1fefa91d14d3076117c;
-GM10847	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000734	GSM935527	683 MB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=5; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1050; controlId=wgEncodeEH000770; labVersion=Data paired with GM10847_IgG_Control; md5sum=aba590af3ad1a509f26a141241c42bd6;
-GM12878	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH002034	GSM935564	510 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1109; controlId=wgEncodeEH002034; md5sum=159ce5b35ee875412cc28effbed92ad6;
-GM12878	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH002034	GSM935564	766 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1109; controlId=wgEncodeEH002034; md5sum=03191d6703d75c18d0a7b9f7d3f6e5c0;
-GM12878	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000690	GSM935478	227 MB	fastq	2009-10-01	2010-06-30	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE Sep 2009 Freeze; subId=620; controlId=wgEncodeEH002034; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=35029320fbecc6b33fde639a063b2440;
-GM12878	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000690	GSM935478	395 MB	fastq	2009-10-01	2010-06-30	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE Sep 2009 Freeze; subId=620; controlId=wgEncodeEH002034; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=b0d934eec790fe6414f07e1a1e9903ff;
-GM12878	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000690	GSM935478	566 MB	fastq	2009-10-01	2010-06-30	lab=Stanford; replicate=3; origAssembly=hg18; dataVersion=ENCODE Sep 2009 Freeze; subId=620; controlId=wgEncodeEH002034; md5sum=447b804ba647faea4f99e1243c8bcbf8;
-GM12878	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000690	GSM935478	616 MB	fastq	2009-10-01	2010-06-30	lab=Stanford; replicate=4; origAssembly=hg18; dataVersion=ENCODE Sep 2009 Freeze; subId=620; controlId=wgEncodeEH002034; md5sum=7abf9f9908e538f1438594dd0d89ad37;
-GM12891	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000772	GSM935453	419 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1111; controlId=wgEncodeEH000772; md5sum=f40b253cf7c100c04db10a76f281f8a3;
-GM12891	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000772	GSM935453	510 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1111; controlId=wgEncodeEH000772; md5sum=e3cdc7509abcdb465db6b1cb6cca1ef4;
-GM12891	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000735	GSM935526	636 MB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=3; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1051; controlId=wgEncodeEH000772; labVersion=Data paired with GM12891_IgG_Control.; md5sum=41b79b887626a2cce1e9a9d0566f06a0;
-GM12891	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000735	GSM935526	856 MB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1051; controlId=wgEncodeEH000772; labVersion=Data paired with GM12891_IgG_Control.; md5sum=e90e6b3d8488c6ae39552f0f4e2a8a85;
-GM12891	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000735	GSM935526	1.0 GB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1051; controlId=wgEncodeEH000772; labVersion=Data paired with GM12891_IgG_Control.; md5sum=d1c638a973bfbbc6d1891d66183328e7;
-GM12892	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000773	GSM935452	140 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1110; controlId=wgEncodeEH000773; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=ed89902c8842842aafc6e37ca70f5970;
-GM12892	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000773	GSM935452	225 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1110; controlId=wgEncodeEH000773; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=b76b5ccf83eaf96dcd5693b6391e2863;
-GM12892	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000712	GSM935285	190 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=3; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=941; controlId=wgEncodeEH000773; labVersion=Data paired with IgG_Control; md5sum=40d36e76c32ac894ec6dd82a2bff6ce1;
-GM12892	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000712	GSM935285	251 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=941; controlId=wgEncodeEH000773; labVersion=Data paired with IgG_Control; md5sum=ee8e125ac1d03559c79b40dd468ee32c;
-GM12892	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000712	GSM935285	334 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=941; controlId=wgEncodeEH000773; labVersion=Data paired with IgG_Control; md5sum=87321e8d9e46fc61805bb4099e32b159;
-GM15510	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000774	GSM935447	166 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1112; controlId=wgEncodeEH000774; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=a24b457e2a437cc740918ede2365ab38;
-GM15510	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000774	GSM935447	176 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1112; controlId=wgEncodeEH000774; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=f6dbeba4dbc728377465bceb82fff0c3;
-GM15510	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000736	GSM935529	176 MB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=3; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1052; controlId=wgEncodeEH000774; labVersion=Illumina 2.0, low confidence sequences excluded. Data paired with GM15510_IgG_Control.; md5sum=0fbeb39f22d4753f4a3135c5feac2cf0;
-GM15510	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000736	GSM935529	277 MB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1052; controlId=wgEncodeEH000774; labVersion=Illumina 2.0, low confidence sequences excluded. Data paired with GM15510_IgG_Control.; md5sum=362f8398c91f2849c9042d7091bcc2fd;
-GM15510	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000736	GSM935529	359 MB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1052; controlId=wgEncodeEH000774; labVersion=Illumina 2.0, low confidence sequences excluded. Data paired with GM15510_IgG_Control.; md5sum=7a5dbc83b53c97a099a69a8af16d75bd;
-GM15510	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000736	GSM935529	543 MB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=4; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1052; controlId=wgEncodeEH000774; labVersion=Data paired with GM15510_IgG_Control.; md5sum=3f2ae96516787d95b7cf9284f06ff090;
-GM15510	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000736	GSM935529	574 MB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=5; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1052; controlId=wgEncodeEH000774; labVersion=Data paired with GM15510_IgG_Control.; md5sum=1a090169f5ef60341987f749773a7774;
-GM18505	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000775	GSM935446	166 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1113; controlId=wgEncodeEH000775; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=22b0ca46f741620eba9fbefee1c5f543;
-GM18505	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000775	GSM935446	219 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1113; controlId=wgEncodeEH000775; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=f374a2ace4712236bf0542de6c256c30;
-GM18505	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000715	GSM935282	246 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=4; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=945; controlId=wgEncodeEH000775; labVersion=Data paired with GM18505_IgG_Control; md5sum=710c71cf27aec08aa05abbdba383a0ee;
-GM18505	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000715	GSM935282	334 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=945; controlId=wgEncodeEH000775; labVersion=Data paired with GM18505_IgG_Control; md5sum=3aa4d89a251799819e20d7fe36370000;
-GM18505	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000715	GSM935282	423 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=945; controlId=wgEncodeEH000775; labVersion=Data paired with GM18505_IgG_Control; md5sum=10bc134d4c5675ce9ae169505ad1d0b7;
-GM18505	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000715	GSM935282	594 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=5; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=945; controlId=wgEncodeEH000775; labVersion=Data paired with GM18505_IgG_Control; md5sum=e1f6ba7705dd6a119095d48bcdc821f9;
-GM18505	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000715	GSM935282	627 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=3; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=945; controlId=wgEncodeEH000775; labVersion=Data paired with GM18505_IgG_Control; md5sum=931ef7f794c4f8f9326f253984f304e8;
-GM18526	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000776	GSM935449	134 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1114; controlId=wgEncodeEH000776; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=a2bd14603bdc9a540f7dbdd76656c08e;
-GM18526	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000776	GSM935449	160 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1114; controlId=wgEncodeEH000776; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=38174eb36389d5c2808b0fa38813233c;
-GM18526	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000716	GSM935281	159 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=3; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=942; controlId=wgEncodeEH000776; labVersion=Data paired with GM18526_IgG_Control; md5sum=da3cfc82014f165134f49ae3d98b165d;
-GM18526	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000716	GSM935281	314 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=942; controlId=wgEncodeEH000776; labVersion=Data paired with GM18526_IgG_Control; md5sum=4e4a76bec0d7756184065cde525ddd56;
-GM18526	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000716	GSM935281	369 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=942; controlId=wgEncodeEH000776; labVersion=Data paired with GM18526_IgG_Control; md5sum=55b2bc3c3fc0f7321ccc57a72b46a11f;
-GM18951	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000777	GSM935448	153 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1115; controlId=wgEncodeEH000777; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=3290805e56ac853b6353b6122aa7a218;
-GM18951	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000777	GSM935448	169 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1115; controlId=wgEncodeEH000777; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=e52b61bdfdc83db5e41981c6d491a881;
-GM18951	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000738	GSM935531	136 MB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1053; controlId=wgEncodeEH000777; labVersion=Illumina 2.0, low confidence sequences excluded. Data paired with GM18951_IgG_Control.; md5sum=e95c8c67adb9360168e1c6641f4588fb;
-GM18951	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000738	GSM935531	284 MB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=3; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1053; controlId=wgEncodeEH000777; labVersion=Illumina 2.0, low confidence sequences excluded. Data paired with GM18951_IgG_Control.; md5sum=9095467851bf05174053e83a56cd55c7;
-GM18951	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000738	GSM935531	528 MB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=4; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1053; controlId=wgEncodeEH000777; labVersion=Data paired with GM18951_IgG_Control.; md5sum=04d8f4c8ea33f92a0e704baf8163c1c7;
-GM18951	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000738	GSM935531	714 MB	fastq	2010-01-14	2010-10-14	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=1053; controlId=wgEncodeEH000777; labVersion=Illumina 2.0, low confidence sequences excluded. Data paired with GM18951_IgG_Control.; md5sum=66ac00b2901f33e2ae1aaef7b82c3170;
-GM19099	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000778	GSM935455	141 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1116; controlId=wgEncodeEH000778; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=309c1c0e05ab4f5babd68f45215d4891;
-GM19099	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000778	GSM935455	170 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1116; controlId=wgEncodeEH000778; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=152899248e9843add6ec6285d9d6d951;
-GM19099	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000717	GSM935273	352 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=3; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=946; controlId=wgEncodeEH000778; labVersion=Data paired with GM19099_IgG_Control; md5sum=e2566ed654191d359f273cf34e55bb73;
-GM19099	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000717	GSM935273	356 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=946; controlId=wgEncodeEH000778; labVersion=Data paired with GM19099_IgG_Control; md5sum=949a7645ce37e812a36ed91ae70b7712;
-GM19099	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000717	GSM935273	790 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=946; controlId=wgEncodeEH000778; labVersion=Data paired with GM19099_IgG_Control; md5sum=54f938aa6ad085a620fa5bd82de183a6;
-GM19193	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000779	GSM935454	161 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1117; controlId=wgEncodeEH000779; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=cf0762ef384f6f2208bfc2445d3f8cda;
-GM19193	Input	TNF-alpha	Raw data	IgG-rab	input	wgEncodeEH000779	GSM935454	163 MB	fastq	2010-03-05	2010-12-05	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE June 2010 Freeze; subId=1117; controlId=wgEncodeEH000779; labVersion=Illumina 2.0, low confidence sequences excluded; md5sum=86bf2e4e73fa8f2360c3aeb0fe7439c4;
-GM19193	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000718	GSM935279	182 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=3; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=947; controlId=wgEncodeEH000779; labVersion=Data paired with GM19193_IgG_Control; md5sum=d1bf01bbd66417859bd1eb9466f2fb3c;
-GM19193	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000718	GSM935279	368 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=1; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=947; controlId=wgEncodeEH000779; labVersion=Data paired with GM19193_IgG_Control; md5sum=86cbd89304918bc63a43409003a5ea3c;
-GM19193	NFKB (sc-372)	TNF-alpha	Raw data	IgG-rab	exp	wgEncodeEH000718	GSM935279	706 MB	fastq	2010-01-12	2010-10-12	lab=Stanford; replicate=2; origAssembly=hg18; dataVersion=ENCODE Jan 2010 Freeze; subId=947; controlId=wgEncodeEH000779; labVersion=Data paired with GM19193_IgG_Control; md5sum=24a1ac37415fd9234382ae6fba6c22bf;
+Cell_line,antibody,treatment,GEO_accession,replicacte
+GM10847,Input,TNF-alpha,GSM935451,2
+GM10847,Input,TNF-alpha,GSM935451,1
+GM10847,NFKB (sc-372),TNF-alpha,GSM935527,3
+GM10847,NFKB (sc-372),TNF-alpha,GSM935527,2
+GM10847,NFKB (sc-372),TNF-alpha,GSM935527,1
+GM10847,NFKB (sc-372),TNF-alpha,GSM935527,4
+GM10847,NFKB (sc-372),TNF-alpha,GSM935527,5
+GM12878,Input,TNF-alpha,GSM935564,2
+GM12878,Input,TNF-alpha,GSM935564,1
+GM12878,NFKB (sc-372),TNF-alpha,GSM935478,1
+GM12878,NFKB (sc-372),TNF-alpha,GSM935478,2
+GM12878,NFKB (sc-372),TNF-alpha,GSM935478,3
+GM12878,NFKB (sc-372),TNF-alpha,GSM935478,4
+GM12891,Input,TNF-alpha,GSM935453,2
+GM12891,Input,TNF-alpha,GSM935453,1
+GM12891,NFKB (sc-372),TNF-alpha,GSM935526,3
+GM12891,NFKB (sc-372),TNF-alpha,GSM935526,1
+GM12891,NFKB (sc-372),TNF-alpha,GSM935526,2
+GM12892,Input,TNF-alpha,GSM935452,1
+GM12892,Input,TNF-alpha,GSM935452,2
+GM12892,NFKB (sc-372),TNF-alpha,GSM935285,3
+GM12892,NFKB (sc-372),TNF-alpha,GSM935285,1
+GM12892,NFKB (sc-372),TNF-alpha,GSM935285,2
+GM15510,Input,TNF-alpha,GSM935447,1
+GM15510,Input,TNF-alpha,GSM935447,2
+GM15510,NFKB (sc-372),TNF-alpha,GSM935529,3
+GM15510,NFKB (sc-372),TNF-alpha,GSM935529,2
+GM15510,NFKB (sc-372),TNF-alpha,GSM935529,1
+GM15510,NFKB (sc-372),TNF-alpha,GSM935529,4
+GM15510,NFKB (sc-372),TNF-alpha,GSM935529,5
+GM18505,Input,TNF-alpha,GSM935446,1
+GM18505,Input,TNF-alpha,GSM935446,2
+GM18505,NFKB (sc-372),TNF-alpha,GSM935282,4
+GM18505,NFKB (sc-372),TNF-alpha,GSM935282,2
+GM18505,NFKB (sc-372),TNF-alpha,GSM935282,1
+GM18505,NFKB (sc-372),TNF-alpha,GSM935282,5
+GM18505,NFKB (sc-372),TNF-alpha,GSM935282,3
+GM18526,Input,TNF-alpha,GSM935449,2
+GM18526,Input,TNF-alpha,GSM935449,1
+GM18526,NFKB (sc-372),TNF-alpha,GSM935281,3
+GM18526,NFKB (sc-372),TNF-alpha,GSM935281,2
+GM18526,NFKB (sc-372),TNF-alpha,GSM935281,1
+GM18951,Input,TNF-alpha,GSM935448,2
+GM18951,Input,TNF-alpha,GSM935448,1
+GM18951,NFKB (sc-372),TNF-alpha,GSM935531,1
+GM18951,NFKB (sc-372),TNF-alpha,GSM935531,3
+GM18951,NFKB (sc-372),TNF-alpha,GSM935531,4
+GM18951,NFKB (sc-372),TNF-alpha,GSM935531,2
+GM19099,Input,TNF-alpha,GSM935455,2
+GM19099,Input,TNF-alpha,GSM935455,1
+GM19099,NFKB (sc-372),TNF-alpha,GSM935273,3
+GM19099,NFKB (sc-372),TNF-alpha,GSM935273,1
+GM19099,NFKB (sc-372),TNF-alpha,GSM935273,2
+GM19193,Input,TNF-alpha,GSM935454,1
+GM19193,Input,TNF-alpha,GSM935454,2
+GM19193,NFKB (sc-372),TNF-alpha,GSM935279,3
+GM19193,NFKB (sc-372),TNF-alpha,GSM935279,1
+GM19193,NFKB (sc-372),TNF-alpha,GSM935279,2

@@ -1,0 +1,69 @@
+esearch 6.70
+
+Query Specification
+
+  -db          Database name
+  -query       Query string
+
+Document Order
+
+  -sort        Result presentation order
+
+Date Constraint
+
+  -days        Number of days in the past
+  -datetype    Date field abbreviation
+  -mindate     Start of date range
+  -maxdate     End of date range
+
+Spell Check
+
+  -spell       Correct misspellings in query
+
+Miscellaneous Arguments
+
+  -label       Alias for query step
+
+Sort Order Examples
+
+  -db            -sort
+  ___            _____
+
+  gene
+                 Chromosome
+                 Gene Weight
+                 Name
+                 Relevance
+
+  geoprofiles
+                 Default Order
+                 Deviation
+                 Mean Value
+                 Outliers
+                 Subgroup Effect
+
+  pubmed
+                 First Author
+                 Journal
+                 Last Author
+                 Pub Date
+                 Recently Added
+                 Relevance
+                 Title
+
+  (sequences)
+                 Accession
+                 Date Modified
+                 Date Released
+                 Default Order
+                 Organism Name
+                 Taxonomy ID
+
+  snp
+                 Chromosome Base Position
+                 Default Order
+                 Heterozygosity
+                 Organism
+                 SNP_ID
+                 Success Rate
+

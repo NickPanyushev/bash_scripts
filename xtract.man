@@ -1,0 +1,240 @@
+xtract 6.70
+
+Overview
+
+  Xtract uses command-line arguments to convert XML data into a tab-delimited table.
+
+  -pattern places the data from individual records into separate rows.
+
+  -element extracts values from specified fields into separate columns.
+
+  -group, -block, and -subset limit element exploration to selected XML subregions.
+
+Processing
+
+  -cleanup         Fix non-ASCII spaces
+  -compress        Compress runs of spaces
+  -plain           Delete Unicode accents
+  -relaxed         Allow PubMed mixed content
+  -strict          Remove HTML highlight tags
+
+Data Source
+
+  -input           Read XML from file instead of stdin
+
+Exploration Argument Hierarchy
+
+  -pattern         Name of record within set
+  -group             Use of different argument
+  -block               names allows command-line
+  -subset                control of nested looping
+
+Exploration Constructs
+
+  Object           DateCreated
+  Parent/Child     Book/AuthorList
+  Heterogeneous    "PubmedArticleSet/*"
+  Nested           "*/Taxon"
+  Recursive        "**/Gene-commentary"
+
+Conditional Execution
+
+  -if              Element [@attribute] required
+  -unless          Skip if element matches
+  -and             All tests must pass
+  -or              Any passing test suffices
+  -else            Execute if conditional test failed
+  -position        Must be at [first|last] location in list
+
+String Constraints
+
+  -equals          String must match exactly
+  -contains        Substring must be present
+  -starts-with     Substring must be at beginning
+  -ends-with       Substring must be at end
+  -is-not          String must not match
+
+Numeric Constraints
+
+  -gt              Greater than
+  -ge              Greater than or equal to
+  -lt              Less than
+  -le              Less than or equal to
+  -eq              Equal to
+  -ne              Not equal to
+
+Format Customization
+
+  -ret             Override line break between patterns
+  -tab             Replace tab character between fields
+  -sep             Separator between group members
+  -pfx             Prefix to print before group
+  -sfx             Suffix to print after group
+  -clr             Clear queued tab separator
+  -pfc             Preface combines -clr and -pfx
+  -rst             Reset -sep, -pfx, and -sfx
+  -def             Default placeholder for missing fields
+  -lbl             Insert arbitrary text
+
+Element Selection
+
+  -element         Print all items that match tag name
+  -first           Only print value of first item
+  -last            Only print value of last item
+  -NAME            Record value in named variable
+
+-element Constructs
+
+  Tag              Caption
+  Group            Initials,LastName
+  Parent/Child     MedlineCitation/PMID
+  Attribute        DescriptorName@MajorTopicYN
+  Recursive        "**/Gene-commentary_accession"
+  Object Count     "#Author"
+  Item Length      "%Title"
+  Element Depth    "^PMID"
+  Variable         "&NAME"
+
+Special -element Operations
+
+  Parent Index     "+"
+  XML Subtree      "*"
+  Children         "$"
+  Attributes       "@"
+
+Numeric Processing
+
+  -num             Count
+  -len             Length
+  -sum             Sum
+  -min             Minimum
+  -max             Maximum
+  -inc             Increment
+  -dec             Decrement
+  -sub             Difference
+  -avg             Average
+  -dev             Deviation
+
+String Processing
+
+  -encode          URL-encode <, >, &, ", and ' characters
+  -upper           Convert text to upper-case
+  -lower           Convert text to lower-case
+  -title           Capitalize initial letters of words
+
+Phrase Processing
+
+  -terms           Partition phrase at spaces
+  -words           Split at punctuation marks
+  -pairs           Adjacent informative words
+  -letters         Separate individual letters
+  -indices         Experimental index generation
+
+Sequence Coordinates
+
+  -0-based         Zero-Based
+  -1-based         One-Based
+  -ucsc-based      Half-Open
+
+Command Generator
+
+  -insd            Generate INSDSeq extraction commands
+
+-insd Argument Order
+
+  Descriptors      INSDSeq_sequence INSDSeq_definition INSDSeq_division
+  Flags            [complete|partial]
+  Feature(s)       CDS,mRNA
+  Qualifiers       INSDFeature_key "#INSDInterval" gene product
+
+Miscellaneous
+
+  -head            Print before everything else
+  -tail            Print after everything else
+  -hd              Print before each record
+  -tl              Print after each record
+
+Reformatting
+
+  -format          [copy|compact|flush|indent|expand]
+
+Modification
+
+  -filter          Object
+                     [retain|remove|encode|decode|shrink|expand|accent]
+                       [content|cdata|comment|object|attributes|container]
+
+Validation
+
+  -verify          Report XML data integrity problems
+
+Summary
+
+  -outline         Display outline of XML structure
+  -synopsis        Display count of unique XML paths
+
+Documentation
+
+  -help            Print this document
+  -examples        Examples of EDirect and xtract usage
+  -extras          Batch and local processing examples
+  -version         Print version number
+
+Notes
+
+  String constraints use case-insensitive comparisons.
+
+  Numeric constraints and selection arguments use integer values.
+
+  -num and -len selections are synonyms for Object Count (#) and Item Length (%).
+
+  -words, -pairs, and -indices convert to lower case.
+
+Examples
+
+  -pattern DocumentSummary -element Id -first Name Title
+
+  -pattern "PubmedArticleSet/*" -block Author -sep " " -element Initials,LastName
+
+  -pattern PubmedArticle -block MeshHeading -if "@MajorTopicYN" -equals Y -sep " / " -element DescriptorName,QualifierName
+
+  -pattern GenomicInfoType -element ChrAccVer ChrStart ChrStop
+
+  -pattern Taxon -block "*/Taxon" -unless Rank -equals "no rank" -tab "\n" -element Rank,ScientificName
+
+  -pattern Entrezgene -block "**/Gene-commentary"
+
+  -block INSDReference -position 2
+
+  -if Author -and Title
+
+  -if "#Author" -lt 6 -and "%Title" -le 70
+
+  -if DateCreated/Year -gt 2005
+
+  -if ChrStop -lt ChrStart
+
+  -if CommonName -contains mouse
+
+  -if "&ABST" -starts-with "Transposable elements"
+
+  -if MapLocation -element MapLocation -else -lbl "\-"
+
+  -min ChrStart,ChrStop
+
+  -max ExonCount
+
+  -inc @aaPosition -element @residue
+
+  -1-based ChrStart
+
+  -insd CDS gene product protein_id translation
+
+  -insd complete mat_peptide "%peptide" product peptide
+
+  -insd CDS INSDInterval_iscomp@value INSDInterval_from INSDInterval_to
+
+  -filter ExpXml decode content
+
+  -filter LocationHist remove object
+

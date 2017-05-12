@@ -11,8 +11,12 @@ INPUT_FILE=$1
 while read line
 do
  read GSE FILENAME <<< "$line"
- SRR=`esearch -db sra -query "$GSE" | efetch -format runinfo | grep SRR | awk -F "," '{print $1}'`
- echo $SRR 
- echo
+ PIPE="esearch -db sra -query "\"$GSE\""| efetch -format docsum | xtract -pattern DocumentSummary -element Run@acc"
+ SRR={ eval $PIPE}
+ echo $PIPE
+ echo $SRR
+ echo 
 done < $INPUT_FILE # NOTE THIS INPUT REDIRECT
+
+
 
