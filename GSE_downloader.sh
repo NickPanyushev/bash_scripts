@@ -6,12 +6,13 @@
 
 INPUT_FILE=$1
 
+#ВНУТРИ WHILE надо убрать все |!!!!
+
 while read line
 do
  read GSE FILENAME <<< "$line"
- #SRR=`esearch -db sra -query "$GSE" | efetch -format runinfo | grep SRR | awk -F "," '{print $1}'`
- #echo $SRR
- echo $GSE $FILENAME
-
+ SRR=`esearch -db sra -query "$GSE" | efetch -format runinfo | grep SRR | awk -F "," '{print $1}'`
+ echo $SRR 
+ echo
 done < $INPUT_FILE # NOTE THIS INPUT REDIRECT
 
