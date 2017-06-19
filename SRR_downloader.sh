@@ -1,6 +1,7 @@
 #!/bin/bash
 
 INPUT_FILE=$1
+echo "/repository/user/main/public/root = "$PWD"" > $HOME/.ncbi/user-settings.mkfg
 
 while read line
 do
