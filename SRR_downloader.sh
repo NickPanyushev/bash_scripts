@@ -7,7 +7,6 @@ while read line
 do
  read SRR FILENAME <<< "$line"
  fastq-dump --split-3 --gzip $SRR
- wait
- mv $SRR.fastq.gz $filename.fastq.gz
+ rename.ul $SRR $FILENAME *
 done < $INPUT_FILE # NOTE THIS INPUT REDIRECT
 
